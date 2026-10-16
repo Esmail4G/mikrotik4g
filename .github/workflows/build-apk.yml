@@ -2,9 +2,6 @@ name: Build APK from uploaded source ZIP
 
 on:
   push:
-    paths:
-      - "mikrotik4g-source.zip"
-      - ".github/workflows/build-apk.yml"
   workflow_dispatch:
 
 permissions:
